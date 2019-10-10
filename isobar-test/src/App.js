@@ -25,9 +25,13 @@ class Puzzel extends Component {
     }
   }
 
+
   clickCell = (row, column) => {
     //find className
-    var cell = document.getElementById(`cell ${row + column}`).className;
+    //console.log(document.getElementById("cell11").Value())
+
+    var cell = document.getElementById('cell' + row + column).className;
+
 
     if (cell !== "empty") {
 
