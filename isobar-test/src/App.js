@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import { clickCell, shuffle } from './functions';
+
 
 class Puzzel extends Component {
 
@@ -29,7 +29,7 @@ class Puzzel extends Component {
   clickCell = (row, column) => {
     //find className
     //console.log(document.getElementById("cell11").Value())
-
+    // Bugeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee!!!!!!!
     var cell = document.getElementById('cell' + row + column).className;
 
 
